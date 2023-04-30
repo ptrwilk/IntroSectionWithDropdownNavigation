@@ -1,0 +1,47 @@
+@import url('../../../colors.css');
+
+.container{
+    display: flex;
+    gap : 2rem;
+    width: 100%;
+}
+
+.container ul{
+    display: flex;
+    gap: 2rem;
+    margin-left: 4rem;
+
+}
+
+.popover{
+    padding: 1rem 0;
+}
+
+.popover .menu-item{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.container .btn{
+    text-transform: none;
+    color: var(--mediumgray);
+}
+
+.container .btn:hover{
+    background: transparent;
+    color: var(--almostblack);
+}
+
+.container .btn-login{
+    margin-left: auto;
+}
+
+.container .btn-register{
+    padding: 0 1rem;
+    border-radius: .7rem;
+    border: 2px solid var(--mediumgray);
+}
+
+.container .btn-register:hover{
+    border-color: var(--almostblack);
+}

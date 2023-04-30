@@ -1,0 +1,26 @@
+@import url('../../../colors.css');
+
+.container{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 10px;
+}
+
+.container:hover .text{
+    color: var(--almostblack);
+}
+
+.container .img-icon{
+    margin-right: 1rem;
+    width: 18px;
+}
+
+.container .img-arrow{
+    margin-left: 1rem;
+}
+
+.container .text{
+    font-size: 1.6em;
+    color: var(--mediumgray);
+}

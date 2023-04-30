@@ -1,0 +1,27 @@
+@import url('../../../../colors.css');
+
+.container{
+    display: flex;
+    align-items: center;
+    padding: 0 !important;
+    cursor: pointer;
+}
+
+.container:hover .text{
+    color: var(--almostblack);
+}
+
+.container .img-icon{
+    margin-right: 1rem;
+    width: 18px;
+}
+
+.container .img-arrow{
+    margin-left: .5rem;
+}
+
+.container .text{
+    font-size: 1.6em;
+    color: var(--mediumgray);
+    user-select: none;
+}

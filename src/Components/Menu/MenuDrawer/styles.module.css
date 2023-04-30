@@ -1,0 +1,58 @@
+@import url('../../../colors.css');
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+
+.container .btn-close-menu{
+    margin-top: 1rem;
+    margin-right: .5rem;
+    align-self: flex-end;
+}
+
+.menu{
+    font-size: 10px;
+}
+
+.menu .main-menu-item{
+    padding-left: 1.5rem;
+}
+
+.menu .sub-menu-item{
+    padding-left: 3rem;
+}
+
+.menu .sub-menu-item:first-child{
+    margin-top: .5rem;
+}
+
+.menu .sub-menu-item:last-child{
+    margin-bottom: .5rem;
+}
+
+.menu .btn{
+    width: 100%;
+    text-transform: none;
+    color: var(--mediumgray);
+}
+
+.menu .btn:hover{
+    background: transparent;
+    color: var(--almostblack);
+}
+
+.menu .btn-register-container{
+    margin-top: .5rem;
+    padding: 0 1.5rem;
+}
+
+.menu .btn-register{
+    border-radius: .7rem;
+    border: 2px solid var(--mediumgray);
+}
+
+.menu .btn-register:hover{
+    border-color: var(--almostblack);
+}

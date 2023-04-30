@@ -1,0 +1,168 @@
+@import url('../../colors.css');
+
+.container{
+    width: 1400px;
+    min-width: 300px;
+    font-size: 10px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1.5rem 1rem;
+}
+
+.menu{
+    margin-left: 4rem;
+}
+
+.header .btn-menu{
+    border-radius: .3rem;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-hero{
+    width: 100%;
+    max-width: 750px;
+    
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 3rem;
+    padding: 0 1rem;
+}
+
+.section .title{
+    font-size: 3.4em;
+    font-weight: 700;
+    text-align: center;
+    color: var(--almostblack);
+}
+
+.section .text{
+    font-size: 1.6em;
+    text-align: center;
+    color: var(--mediumgray);
+}
+
+.section .btn{
+    padding: 1rem 1.5rem;
+    border-radius: 1rem;
+    font-weight: 700;
+    font-size: 1.4em;
+    text-transform: none;
+    border: 2px solid transparent;
+    color: var(--almostwhite);
+    background: var(--almostblack);
+}
+
+.section .btn:hover{
+    border: 2px solid var(--almostblack);
+    color: var(--almostblack);
+    background: var(--almostwhite);
+}
+
+.section ul{
+    display: flex;
+    gap: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.section li{
+    padding: 0;
+}
+
+.section li img{
+    width: 100%;
+}
+
+@media (min-width : 920px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header{
+      justify-content: flex-start;
+    }
+
+    .content{
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 5rem;
+        margin-top: 3rem;
+        max-width: 1200px;
+    }
+
+    .section{
+        align-items: flex-start;
+        justify-content: center;
+        margin-top: 0;
+        padding: 0;
+        padding-left: 3rem;
+        height: 100%;
+        width: 100%;
+    }
+
+    .section .title{
+        margin-top: auto;
+        font-size: 7em;
+        text-align: left;
+    }
+
+    .section .text{
+        max-width: 90%;
+        text-align: start;
+    }
+
+    .section ul{
+        width: 100%;
+        margin-top: auto;
+        margin-bottom: 0;
+        padding: 0;
+    }
+
+    .section li img{
+        width: 100px;
+    }
+}
+
+@media (min-width : 1000px) {
+    .section{
+        gap: 3rem;
+    }
+
+}
+
+@media (min-width : 1200px) {
+    .section .title{
+        font-size: 8em;
+    }
+
+    .section .text{
+        font-size: 1.9em;
+    }
+}
+
+/* @media (min-width : 1250px) {
+
+    .section .title{
+        font-size: 8em;
+    }
+
+    .section .text{
+        font-size: 2em;
+    }
+} */
